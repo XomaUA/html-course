@@ -5,10 +5,12 @@
 		<title>My website in html</title>
         <link rel="stylesheet" href="style/style.css" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<input type="search" name="search" placeholder="Найти в городе Киев">
-        <input type="submit" value="Тыць сюды">
+		<input type="search" name="search" placeholder="Найти в городе Киев" id="sal">
+        <input type="submit" value="Тыць сюды" id="abc">
         <br>
         <br>
 		<img src="https://s.zagranitsa.com/images/articles/2017/870x486/8be18237b713290502a8c29e57fd2cc7.jpg?1447056000" alt="Вечерний Киев">
@@ -17,9 +19,11 @@
         <p div class="topleft">Портал любимого города</div></p>
         </figcaption>
         </figure>
-        <h1 align="center"><strong>КИЕВ</strong></h1>
-        <article>
-        <p>Ки́ев - столица и крупнейший город Украины. Расположен на реке Днепре, является центром Киевской агломерации. Отдельная административно-территориальная единица Украины; культурный, политический, социально-экономический, транспортный, научный и религиозный центр страны. Киев — административный центр Киевской области и Киево-Святошинского района Киевской области, хотя и не входит в их состав, имея особый правовой статус. Расположен на севере центральной части Украины. Киев - седьмой по населению город Европы после Стамбула, Москвы, Лондона, Санкт-Петербурга, Берлина и Мадрида.</p></article>
+        <h1 align="center" id="city"><strong>КИЕВ</strong></h1>
+        <article class="hello">
+        <p class="hel">Ки́ев - столица и крупнейший город Украины. Расположен на реке Днепре, является центром Киевской агломерации. Отдельная административно-территориальная единица Украины; культурный, политический, социально-экономический, транспортный, научный и религиозный центр страны. Киев — административный центр Киевской области и Киево-Святошинского района Киевской области, хотя и не входит в их состав, имея особый правовой статус. Расположен на севере центральной части Украины. Киев - седьмой по населению город Европы после Стамбула, Москвы, Лондона, Санкт-Петербурга, Берлина и Мадрида. 
+        </p>
+        </article>
         <nav class="navi">
         <a href="#">Домой</a>
         <a href="#">Новости</a>
@@ -28,7 +32,7 @@
         </nav>
         <br>
         <br>
-            <form action="">
+            <form action="" id="goo">
                 <fieldset>
                 <label for="name">Email</label>
                 <input type="text" required name="name" placeholder="Введите мейл">
@@ -37,27 +41,35 @@
                 <label for="pass">Password</label>
                  <input type="password" name="pass" placeholder="Введите пароль" required>
                 </fieldset>
-                <input type="submit" value="Тыць">
+                <input type="submit" value="Тыць" id="solo">
             </form>
             <br>
             <br>
-            <form>
+           
             <label>Сколько Кличко еще будет мером?</label><br>
-            <input type="radio">1 срок <br>
-            <input type="radio">2 срока <br>
-            <input type="radio">Пока ноги ходят <br>
-            <input type="radio">Кличко Чемпион <br>
+            <form id="zub">
+            <input type="radio" id="ans1">1 срок<br>
+            <input type="radio" id="ans2">2 срока<br>
+            <input type="radio" id="ans3">Пока ноги ходят<br>
+            <input type="radio" id="ans4">Кличко Чемпион<br>
             </form>
+            <br><br><br><br>
+            
             <h1><u>СКАНДАЛЬНЫЕ НОВОСТИ КИЕВА</u></h1>
-            <table>
+            
                 <ul type="square">
-            <li><a href="#">В Киеве жители домов "Войцеховского" перекрыли дорогу</a></li>
-            <li><a href="#">В ближайшее время метро на Троещину не планируется</a></li>
-            <li><a href="#">Суд Киева арестовал 14 новостроек</a></li>
+            <li id="boom1"><a href="#">В Киеве жители домов "Войцеховского" перекрыли дорогу</a></li>
+            <li id="boom2"><a href="#">В ближайшее время метро на Троещину не планируется</a></li>
+            <li id="boom3"><a href="#">Суд Киева арестовал 14 новостроек</a></li>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
             <br>
             <br>
             <form>
-            <fieldset>
+            <fieldset id="hi">
             <p>Свяжитесь с нами:</p>
             <input type="email" placeholder="Введите мейл" required>
             <textarea name="message" rows="5" cols="50" placeholder="Введите свое сообщение" required></textarea>
@@ -71,7 +83,7 @@
             <a href="#" target="_self">Наш Twitter</a>
             </nav>
             <br>
-            <h1>&#174;</h1>
+           
         
  </body>
 </html>

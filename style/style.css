@@ -3,14 +3,94 @@
     display: inline;
     border: 1px solid;
     border-color:green;
-    margin: 150px;
+    margin: 200px;
     padding: 15px;
     font-size: 23px;
     font-family: "Oswald";
 }
 .topleft{
     position: absolute;
-    font-size: 35px;
+    font-size: 55px;
     top: 400px;
     left: 35px;
+    font-family: "Russo One", serif;
+    text-shadow: 4px 4px 4px #aaa;
+    color:darkblue;
+}
+#ans1{
+    float: left;
+    width: 35px;
+}
+#ans2{
+float: left;
+width: 35px;
+}
+#ans3{
+    float: left;  
+    width: 35px;
+}
+#ans4 {
+    float:left;
+    width: 35px;
+}
+    .hel {
+    font-size: 15px;
+    font-family: "Russo One", serif;
+}
+.hello {
+    background-color: rgb(182, 184, 78);
+}
+#city {
+    font-family: "Lobster";
+    font-size: 60px;
+    text-shadow: 5px 5px 5px #aaa;
+}
+#zub {
+    background-color: skyblue;
+    width: 255px;
+    font-style: oblique;
+}
+#boom1 {
+    float: left;
+    width: 150px;
+    height: 150px;
+    overflow: visible;
+}
+#boom2 {
+    float: left;
+    width: 160px;
+    height: 150px;
+    overflow: visible;
+    padding: 1px;
+}
+#boom3 {
+    float: left;
+    width: 150px;
+    height: 150px;
+    overflow: visible;
+}
+#sal {
+    background-color:  turquoise;
+    color: rgb(243, 53, 20);
+}
+#abc {
+    width: 100px;
+    height: 30px;
+    font-style: italic;
+}
+#goo {
+    width: 250px;
+    font-style: oblique;
+}
+#solo {
+    width:100px;
+    height: 100px;
+    font-size: 25px;
+    background-color: red;
+}
+#hi {
+    width: 300px;
+    height: 180px;
+    border: 3px solid;
+    position: absolute;
 }
