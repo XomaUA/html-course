@@ -33,13 +33,14 @@ width: 35px;
     float:left;
     width: 35px;
 }
-    .hel {
+.hel {
     font-size: 15px;
     font-family: "Russo One", serif;
     width: 840px;
 }
 .hello {
     background-color: rgb(182, 184, 78);
+    width: 860px;
 }
 #city {
     font-family: "Lobster";
