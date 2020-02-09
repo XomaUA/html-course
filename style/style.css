@@ -36,6 +36,7 @@ width: 35px;
     .hel {
     font-size: 15px;
     font-family: "Russo One", serif;
+    width: 840px;
 }
 .hello {
     background-color: rgb(182, 184, 78);
@@ -93,4 +94,8 @@ width: 35px;
     height: 180px;
     border: 3px solid;
     position: absolute;
+}
+#fin:hover {
+    background-color: red;
+    width: 580px;
 }
