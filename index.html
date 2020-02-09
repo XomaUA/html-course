@@ -5,12 +5,16 @@
 		<title>My website in html</title>
 	</head>
 	<body>
-		<p><input type="search" name="search" placeholder="Найти в городе Киев"</p>
+		<input type="search" name="search" placeholder="Найти в городе Киев">
         <input type="submit" value="Тыць сюды">
         <br>
         <br>
 		<img src="https://s.zagranitsa.com/images/articles/2017/870x486/8be18237b713290502a8c29e57fd2cc7.jpg?1447056000" alt="Вечерний Киев">
+        <figure>
+        <figcaption>
         <p><big>Портал любимого города</big></p>
+        </figcaption>
+        </figure>
         <h1 align="center"><strong>КИЕВ</strong></h1>
         <article>
         <p>Ки́ев - столица и крупнейший город Украины. Расположен на реке Днепре, является центром Киевской агломерации. Отдельная административно-территориальная единица Украины; культурный, политический, социально-экономический, транспортный, научный и религиозный центр страны. Киев — административный центр Киевской области и Киево-Святошинского района Киевской области, хотя и не входит в их состав, имея особый правовой статус. Расположен на севере центральной части Украины. Киев - седьмой по населению город Европы после Стамбула, Москвы, Лондона, Санкт-Петербурга, Берлина и Мадрида.</p></article>
@@ -50,10 +54,14 @@
             <li><a href="#">Суд Киева арестовал 14 новостроек</a></li>
             <br>
             <br>
+            <form>
+            <fieldset>
             <p>Свяжитесь с нами:</p>
             <input type="email" placeholder="Введите мейл" required>
-            <input type="text" placeholder="Введите свое сообщение" size="45" required>
+            <textarea name="message" rows="5" cols="50" placeholder="Введите свое сообщение" required></textarea>
+            </form>
             <input type="submit" placeholder="Тыць тыць">
+            </fieldset>
             <br>
             <br>
             <nav>
