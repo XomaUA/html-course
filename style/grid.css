@@ -1,0 +1,11 @@
+header, footer, article, nav, div {
+    padding: 20px;
+    background: darkgoldenrod;
+}
+
+body {
+    display: grid;
+grid-template-columns: 100px 100px 100px;
+grid-gap: 10px;
+
+}
