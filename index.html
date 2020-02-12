@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+       
 		<meta charset="utf-8">
 		<title>My website in html</title>
         <link rel="stylesheet" href="style/style.css" type="text/css"/>
@@ -9,11 +10,21 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<input type="search" name="search" placeholder="Найти в городе Киев" id="sal">
-        <input type="submit" value="Тыць сюды" id="abc">
+    <div class="container">
+        <div class="box1">
+		    <input type="search" name="search" placeholder="Найти в городе Киев" id="sal">
+            <input type="submit" value="Тыць сюды" id="abc">
+        </div>
+        <div class="box2">
+                <a href="#" div="flex1">Домой</a>
+                <a href="#" div="flex2">Новости</a>
+                <a href="#" div="flex3">Приколы</a>
+                <a href="#" div="flex4">Настройки аккаунта</a>            
+        </div>
+    </div>
         <br>
         <br>
-		<img src="https://s.zagranitsa.com/images/articles/2017/870x486/8be18237b713290502a8c29e57fd2cc7.jpg?1447056000" alt="Вечерний Киев">
+		<img src="https://s.zagranitsa.com/images/articles/2017/870x486/8be18237b713290502a8c29e57fd2cc7.jpg?1447056000" alt="Вечерний Киев" id="pic">
         <figure>
         <figcaption>
         <p div class="topleft">Портал любимого города</div></p>
@@ -24,12 +35,7 @@
         <p class="hel">Ки́ев - столица и крупнейший город Украины. Расположен на реке Днепре, является центром Киевской агломерации. Отдельная административно-территориальная единица Украины; культурный, политический, социально-экономический, транспортный, научный и религиозный центр страны. Киев — административный центр Киевской области и Киево-Святошинского района Киевской области, хотя и не входит в их состав, имея особый правовой статус. Расположен на севере центральной части Украины. Киев - седьмой по населению город Европы после Стамбула, Москвы, Лондона, Санкт-Петербурга, Берлина и Мадрида. 
         </p>
         </article>
-        <nav class="navi">
-        <a href="#">Домой</a>
-        <a href="#">Новости</a>
-        <a href="#">Приколы</a>
-        <a href="#">Настройки аккаунта</a>
-        </nav>
+       
         <br>
         <br>
             <form action="" id="goo">
@@ -57,7 +63,7 @@
             
             <h1 id="fin"><u>СКАНДАЛЬНЫЕ НОВОСТИ КИЕВА</u></h1>
             
-                <ul type="square">
+                <ul type="square" id="bomb">
             <li id="boom1"><a href="#">В Киеве жители домов "Войцеховского" перекрыли дорогу</a></li>
             <li id="boom2"><a href="#">В ближайшее время метро на Троещину не планируется</a></li>
             <li id="boom3"><a href="#">Суд Киева арестовал 14 новостроек</a></li>
