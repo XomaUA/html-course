@@ -48,6 +48,85 @@
 
 .row3 {
     flex: 1;
-    background-color: rgb(166, 209, 226);
+    background-color: rgb(155, 193, 207);
     padding: 5px;
 }
+.new {
+    font-size: 30px;
+    color: red;
+}
+
+#new1 {
+    font-size: 22px;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+ul > li {
+    font-size: 20px;
+}
+
+.container3 {
+    display: flex;
+}
+
+.container3 div{
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.emp1 {
+    flex: 1;
+    background-color: rgb(255, 232, 190);
+}
+
+.emp2 {
+    flex: 1;
+    background-color: rgb(167, 135, 135);
+}
+
+.emp3 {
+    flex: 1;
+    background-color: rgb(150, 211, 205);
+}
+
+.emp4 {
+    flex: 1;
+    background-color: rgb(140, 184, 159);
+}
+
+.emp5 {
+    flex: 1;
+    background-color: rgb(255, 214, 110);
+}
+
+.emp6 {
+    flex: 1;
+    background-color: khaki;
+}
+
+.emp7 {
+    flex: 1;
+    background-color: cadetblue;
+}
+
+.emp8 {
+    flex: 1;
+    background-color: cornflowerblue;
+}
+
+.emp9 {
+    flex: 1;
+    background-color: lavenderblush;
+}
+
+.emp10 {
+    flex: 1;
+    background-color: lightgray;
+}
+
