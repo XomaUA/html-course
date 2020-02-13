@@ -1,18 +1,53 @@
 .container1 div{
-padding: 10px;
-border: 1px solid silver;
+    padding: 10px;
+    border: 1px solid silver;
 }
 
 .container1{
     display: flex;
-    
+    justify-content: flex-start;
     
 }
 
-.box1{
--webkit-flex: 2;
+.box1 {
+
 }
 
-.box2{
--webkit-flex: 1;
+.box2 {
+
+
+}
+
+#pic {
+    width: 100%;   
+}
+
+.container2 {
+    display: flex;
+}
+
+.kyiv {
+    text-align: center;
+}
+
+.kyiv:hover {
+    background-color: slategray;
+}
+
+.row1 {
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+}
+
+.row2 {
+    flex: 2;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.row3 {
+    flex: 1;
+    background-color: rgb(166, 209, 226);
+    padding: 5px;
 }
