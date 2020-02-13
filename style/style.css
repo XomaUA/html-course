@@ -1,0 +1,18 @@
+.container1 div{
+padding: 10px;
+border: 1px solid silver;
+}
+
+.container1{
+    display: flex;
+    
+    
+}
+
+.box1{
+-webkit-flex: 2;
+}
+
+.box2{
+-webkit-flex: 1;
+}
