@@ -14,7 +14,13 @@
 
     .container3 {
         display: flex;
+        flex-wrap: wrap;
     }
+
+    .container4 {
+        display: flex;
+    }    
+
 }
 
 
@@ -137,12 +143,12 @@ ul > li {
     background-color: lightgray;
 }
 
-.container4 {
-        display: flex;
-        padding: 10px;
-        border: 1px solid rgb(212, 94, 94);
-}
 
+
+.container4 div {
+    padding: 10px;
+    border: 1px solid rgb(212, 94, 94);
+}
 .cat1 {
     flex: 1;
     background-color: rgb(248, 241, 145);
@@ -157,4 +163,8 @@ ul > li {
 .cat3 {
     flex: 1;
     background-color: rgb(100, 190, 202);
+}
+
+.dog {
+    text-align: center;
 }
