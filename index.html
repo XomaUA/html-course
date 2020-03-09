@@ -4,6 +4,17 @@
     <title>My new website</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style/style.css" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+                $("button").click(function(){
+                $("#div1").fadeToggle();
+                $("#div2").fadeToggle();
+                $("#div3").fadeToggle();
+                $("#div4").fadeToggle();
+                });
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -143,6 +154,13 @@
                 <input type="submit">
                 </form>
             </div>
+        </div>
+        <button class="emer">EMERGENCY NUMBERS YOU HAVE TO KNOW! PRESS TO SEE!</button><br><br>
+        <div class='container5'>
+            <div id="div1"><h3>Firefighters - 101</h3></div>
+            <div id="div2"><h3>Police - 102</h3></div>
+            <div id="div3"><h3>Ambulance - 103</h3></div>
+            <div id="div4"><h3>Dominos Pizza - 222 11 11</h3></div>
         </div>
     </main>
     <footer>
